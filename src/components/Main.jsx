@@ -2,6 +2,7 @@ import DcComp from './DcComp';
 import Merchandise from './Merchandise';
 import Subscriptions from './Subscriptions';
 import Locator from './Locator';
+import Power from './Power';
 export default function Main() {
 
     return (
@@ -28,7 +29,7 @@ export default function Main() {
                         COMIC SHOP LOCATOR
                     </li>
                     <li>
-                        <DcComp />
+                        <Power />
                         DC POWER VISA
                     </li>
                 </ul>
