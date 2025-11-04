@@ -51,6 +51,12 @@ h3 {
     color: white;
 }
 
+.col-8 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 .col-4 {
     position: absolute;
     right: 50px;
