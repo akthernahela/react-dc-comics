@@ -1,15 +1,15 @@
-import Header from "./components/Header.jsx";
-import Main from "./components/Main.jsx";
-import Footer from "./components/Footer.jsx";
+import Header from "./components/Header";
+//import Main from "./components/Main";
+//import Footer from "./components/Footer";
 
 function App() {
 
 
   return (
     <>
-      <header />
-      <main />
-      <footer />
+      <Header />
+      <Main />
+      <Footer />
     </>
   )
 }

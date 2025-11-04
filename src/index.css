@@ -1,2 +1,6 @@
-@import url("bootstrap");
-@import url("bootstrap-icon");
+@import url('bootstrap');
+@import url('bootstrap-icons');
+
+.logo {
+    background-image: url(./img/dc-logo.png);
+}
