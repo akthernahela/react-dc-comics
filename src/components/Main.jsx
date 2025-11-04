@@ -1,5 +1,7 @@
 import DcComp from './DcComp';
 import Merchandise from './Merchandise';
+import Subscriptions from './Subscriptions';
+import Locator from './Locator';
 export default function Main() {
 
     return (
@@ -18,11 +20,11 @@ export default function Main() {
                         DC MERCHANDISE
                     </li>
                     <li>
-                        <DcComp />
+                        <Subscriptions />
                         SUBSCRIPTION
                     </li>
                     <li>
-                        <DcComp />
+                        <Locator />
                         COMIC SHOP LOCATOR
                     </li>
                     <li>
