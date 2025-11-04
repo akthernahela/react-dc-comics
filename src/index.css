@@ -51,7 +51,15 @@ h3 {
     color: white;
 }
 
-/*Uso i chlid*/
+.col-4 {
+    position: absolute;
+    right: 50px;
+    top: 0;
+    height: 100%;
+}
+
 .BigLogo {
+    right: 0;
+    top: -100px;
     position: absolute;
 }
