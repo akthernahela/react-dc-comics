@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer>
             <div className="upFooter">
-                <div className="row align-items-start w-50">
+                <div className="row w-50">
                     <div className="col-8">
                         <nav>
                             <h3>DC COMICS</h3>
@@ -50,15 +50,15 @@ export default function Footer() {
                 </div>
             </div>
             <div className="downFooter">
-                <button type="button" className="btn btn-outline-primary">Sign-up now!</button>
+                <button type="button" className="btn text-white btn-outline-primary">Sign-up now!</button>
                 <div className="followUs">
                     <span>FOLLOW US</span>
                     <div className="socialIcons">
-                        <i class="bi bi-facebook"></i>
-                        <i class="bi bi-twitter"></i>
-                        <i class="bi bi-youtube"></i>
-                        <i class="bi bi-pinterest"></i>
-                        <i class="bi bi-instagram"></i>
+                        <div><i class="bi bi-facebook"></i></div>
+                        <div><i class="bi bi-twitter"></i></div>
+                        <div><i class="bi bi-youtube"></i></div>
+                        <div><i class="bi bi-pinterest"></i></div>
+                        <div><i class="bi bi-instagram"></i></div>
                     </div>
                 </div>
             </div>
