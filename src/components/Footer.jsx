@@ -55,6 +55,11 @@ export default function Footer() {
             <div className="followUs">
                 <span>FOLLOW US</span>
                 <div className="socialIcons">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-twitter"></i>
+                    <i class="bi bi-youtube"></i>
+                    <i class="bi bi-pinterest"></i>
+                    <i class="bi bi-instagram"></i>
                 </div>
             </div>
         </footer>
