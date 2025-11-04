@@ -4,3 +4,8 @@
 .logo {
     background-image: url(./img/dc-logo.png);
 }
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+}
