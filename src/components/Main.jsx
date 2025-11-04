@@ -8,7 +8,15 @@ export default function Main() {
     return (
         <main>
             <div className='titleText'>
+                <i class="bi bi-dash"></i>
+                <i class="bi bi-dash"></i>
+                <i class="bi bi-arrow-right"></i>
+
                 <h1> Content goes here </h1>
+
+                <i class="bi bi-arrow-left"></i>
+                <i class="bi bi-dash"></i>
+                <i class="bi bi-dash"></i>
             </div>
             <div>
                 <ul>

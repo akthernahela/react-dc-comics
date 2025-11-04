@@ -12,7 +12,7 @@ export default function Header() {
                     <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="#">CHARACTERS</a>
                     </li>
-                    <li className="nav-item nav-underline">
+                    <li className="nav-item">
                         <a className="nav-link active" aria-current="page" href="#">COMICS</a>
                     </li>
                     <li className="nav-item">
