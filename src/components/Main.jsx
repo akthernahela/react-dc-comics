@@ -10,11 +10,24 @@ export default function Main() {
                 <ul>
                     <li>
                         <DcComp />
+                        DIGITAL COMICS
                     </li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>
+                        <DcComp />
+                        DC MERCHANDISE
+                    </li>
+                    <li>
+                        <DcComp />
+                        SUBSCRIPTION
+                    </li>
+                    <li>
+                        <DcComp />
+                        COMIC SHOP LOCATOR
+                    </li>
+                    <li>
+                        <DcComp />
+                        DC POWER VISA
+                    </li>
                 </ul>
             </div>
         </main>
