@@ -1,13 +1,16 @@
+import DcComp from './DcComp'
 export default function Main() {
 
     return (
         <main>
-            <div>
+            <div className='titleText'>
                 <h1> Content goes here </h1>
             </div>
             <div>
                 <ul>
-                    <li></li>
+                    <li>
+                        <DcComp />
+                    </li>
                     <li></li>
                     <li></li>
                     <li></li>
