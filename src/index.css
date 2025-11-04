@@ -45,6 +45,9 @@ main {
 .downFooter {
     min-height: 100px;
     background-color: rgb(42, 42, 42);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 h3 {
