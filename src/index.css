@@ -33,6 +33,8 @@ main {
 .upFooter {
     height: 400px;
     background-image: url('./assets/img/footer-bg.jpg');
+    position: relative;
+    overflow: hidden;
 
     a {
         text-decoration: none;
@@ -49,16 +51,7 @@ h3 {
     color: white;
 }
 
-.upFooter {
-    position: relative;
-    overflow: hidden;
-}
-
 /*Uso i chlid*/
-.upFooter .col:last-child {
+.BigLogo {
     position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    top: -100px;
 }

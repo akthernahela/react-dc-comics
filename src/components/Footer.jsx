@@ -5,7 +5,7 @@ export default function Footer() {
         <footer>
             <div className="upFooter">
                 <div className="row align-items-start">
-                    <div className="col">
+                    <div className="col-8">
                         <nav>
                             <h3>DC COMICS</h3>
                             <a href="">Characters</a>
@@ -44,7 +44,7 @@ export default function Footer() {
                             <a href="">Shop DC Collectibles</a>
                         </nav>
                     </div>
-                    <div className="col">
+                    <div className="col-4">
                         <BigLogo />
                     </div>
                 </div>
