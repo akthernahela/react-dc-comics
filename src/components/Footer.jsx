@@ -1,3 +1,4 @@
+import BigLogo from './BigLogo';
 export default function Footer() {
 
     return (
@@ -44,7 +45,7 @@ export default function Footer() {
                         </nav>
                     </div>
                     <div className="col">
-                        One of three columns
+                        <BigLogo />
                     </div>
                 </div>
             </div>
