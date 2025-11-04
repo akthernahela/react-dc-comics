@@ -48,13 +48,17 @@ main {
 }
 
 h3 {
+    font-size: large;
     color: white;
 }
 
 .col-8 {
+    font-size: small;
+    padding-top: 10px;
+    padding-left: 15%;
     display: flex;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 10px;
 }
 
 .col-4 {

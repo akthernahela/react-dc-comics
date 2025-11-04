@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer>
             <div className="upFooter">
-                <div className="row align-items-start">
+                <div className="row align-items-start w-50">
                     <div className="col-8">
                         <nav>
                             <h3>DC COMICS</h3>
