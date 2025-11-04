@@ -52,6 +52,11 @@ export default function Footer() {
             <div className="downFooter">
                 <button type="button" className="btn btn-outline-primary">Sign-up now!</button>
             </div>
+            <div className="followUs">
+                <span>FOLLOW US</span>
+                <div className="socialIcons">
+                </div>
+            </div>
         </footer>
     );
 }
