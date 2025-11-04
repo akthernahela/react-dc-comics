@@ -5,7 +5,43 @@ export default function Footer() {
             <div className="upFooter">
                 <div className="row align-items-start">
                     <div className="col">
-                        One of three columns
+                        <nav>
+                            <h3>DC COMICS</h3>
+                            <a href="">Characters</a>
+                            <a href="">Comics</a>
+                            <a href="">Movies</a>
+                            <a href="">TV</a>
+                            <a href="">Games</a>
+                            <a href="">Videos</a>
+                            <a href="">News</a>
+                        </nav>
+                        <nav>
+                            <h3>DC</h3>
+                            <a href="">Terms Of Use</a>
+                            <a href="">Privacy policy(New)</a>
+                            <a href="">Ad Choices</a>
+                            <a href="">Advertising</a>
+                            <a href="">Jobs</a>
+                            <a href="">Subscriptions</a>
+                            <a href="">Talent Workshops</a>
+                            <a href="">CPSC Certificates</a>
+                            <a href="">Ratings</a>
+                            <a href="">Shop Help</a>
+                            <a href="">Contact Us</a>
+                        </nav>
+                        <nav>
+                            <h3>SITES</h3>
+                            <a href="">DC</a>
+                            <a href="">MAD Magazing</a>
+                            <a href="">DC Kids</a>
+                            <a href="">DC Universe</a>
+                            <a href="">DC Power Visa</a>
+                        </nav>
+                        <nav>
+                            <h3>SHOP</h3>
+                            <a href="">Shop DC</a>
+                            <a href="">Shop DC Collectibles</a>
+                        </nav>
                     </div>
                     <div className="col">
                         One of three columns
@@ -13,7 +49,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="downFooter">
-                <button type="button" class="btn btn-outline-primary">Sign-up now!</button>
+                <button type="button" className="btn btn-outline-primary">Sign-up now!</button>
             </div>
         </footer>
     );
