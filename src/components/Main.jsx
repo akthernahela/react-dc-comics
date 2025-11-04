@@ -1,4 +1,5 @@
-import DcComp from './DcComp'
+import DcComp from './DcComp';
+import Merchandise from './Merchandise';
 export default function Main() {
 
     return (
@@ -13,7 +14,7 @@ export default function Main() {
                         DIGITAL COMICS
                     </li>
                     <li>
-                        <DcComp />
+                        <Merchandise />
                         DC MERCHANDISE
                     </li>
                     <li>
