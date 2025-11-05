@@ -2,6 +2,69 @@
 import Logo from "./Logo";
 export default function Header() {
 
+    export const navbarLinks = [
+        {
+            id: 1,
+            text: 'CHARACTERS',
+            url: '#',
+            active: false
+        },
+        {
+            id: 2,
+            text: 'COMICS',
+            url: '#',
+            active: true
+        },
+        {
+            id: 3,
+            text: 'MOVIES',
+            url: '#',
+            active: false
+        },
+        {
+            id: 4,
+            text: 'TV',
+            url: '#',
+            active: false
+        },
+        {
+            id: 5,
+            text: 'GAMES',
+            url: '#',
+            active: false
+        },
+        {
+            id: 6,
+            text: 'COLLECTIBLES',
+            url: '#',
+            active: false
+        },
+        {
+            id: 7,
+            text: 'VIDEOS',
+            url: '#',
+            active: false
+        },
+        {
+            id: 8,
+            text: 'FANS',
+            url: '#',
+            active: false
+        },
+        {
+            id: 9,
+            text: 'NEWS',
+            url: '#',
+            active: false
+        },
+        {
+            id: 10,
+            text: 'SHOP',
+            url: '#',
+            active: false
+        },
+    ];
+
     return (
         <header>
             <div>
@@ -9,36 +72,7 @@ export default function Header() {
             </div>
             <div>
                 <ul className="nav">
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">CHARACTERS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">COMICS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">MOVIES</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">TV</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">GAMES</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">COLLECTIBLES</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">VIDEOS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">FANS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">NEWS</a>
-                    </li>
-                    <li className="nav-item">
-                        <a className="nav-link active text-black" aria-current="page" href="#">SHOP</a>
-                    </li>
+
                 </ul>
             </div>
         </header>
