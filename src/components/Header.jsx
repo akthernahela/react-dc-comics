@@ -2,7 +2,7 @@
 import Logo from "./Logo";
 export default function Header() {
 
-    export const navbarLinks = [
+    const navbarLinks = [
         {
             id: 1,
             text: 'CHARACTERS',
@@ -72,7 +72,13 @@ export default function Header() {
             </div>
             <div>
                 <ul className="nav">
-
+                    {navbarLinks.map((link) => (
+                        <li className="nav-item" key={link.id}>
+                            <a href={link.url} className={`nav-link text-black ${link.active ? 'active-dc' : ''}`}>
+                                {link.text}
+                            </a>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </header>
