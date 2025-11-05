@@ -110,3 +110,9 @@ h3 {
     background-image: url('./assets/img/jumbotron.jpg');
     height: 400px;
 }
+
+.card {
+    background-color: transparent;
+    border: none;
+    height: 100%;
+}
