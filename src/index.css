@@ -23,7 +23,6 @@ main {
 .titleText {
     display: flex;
     align-items: center;
-    padding-left: 15%;
     min-height: 150px;
     margin: 0;
     background-color: black;
