@@ -166,6 +166,9 @@ export default function Main() {
             <div className="jumbo p-0 m-0">
             </div>
             <div className='titleText p-5'>
+                <div className="current-series-label">
+                    CURRENT SERIES
+                </div>
                 <div className="container">
                     <div className="row row-cols-6 g-3">
                         {
