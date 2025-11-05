@@ -116,3 +116,11 @@ h3 {
     border: none;
     height: 100%;
 }
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+    border-radius: 0;
+    object-fit: cover;
+    display: block;
+}
