@@ -112,6 +112,7 @@ h3 {
     background-image: url('./assets/img/jumbotron.jpg');
     height: 400px;
     background-repeat: no-repeat;
+    object-fit: fill;
 }
 
 .card {

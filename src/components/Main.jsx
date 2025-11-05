@@ -3,7 +3,6 @@ import Merchandise from './Merchandise';
 import Subscriptions from './Subscriptions';
 import Locator from './Locator';
 import Power from './Power';
-import comics from './comics';
 
 export default function Main() {
 
