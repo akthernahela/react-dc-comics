@@ -182,6 +182,9 @@ export default function Main() {
                             ))
                         }
                     </div>
+                    <div class="d-grid gap-2 d-flex justify-content-center">
+                        <button class="btn btn-primary " type="button">LOAD MORE</button>
+                    </div>
                 </div>
             </div>
             <div>
