@@ -124,3 +124,9 @@ h3 {
     object-fit: cover;
     display: block;
 }
+
+.card-body {
+    padding: 0.5rem 0;
+    border: none;
+
+}
