@@ -3,20 +3,23 @@ import Merchandise from './Merchandise';
 import Subscriptions from './Subscriptions';
 import Locator from './Locator';
 import Power from './Power';
+
 export default function Main() {
 
     return (
         <main>
+            <div className="jumbo p-0 m-0">
+            </div>
             <div className='titleText'>
-                <i class="bi bi-dash"></i>
-                <i class="bi bi-dash"></i>
-                <i class="bi bi-arrow-right"></i>
+                <i className="bi bi-dash"></i>
+                <i className="bi bi-dash"></i>
+                <i className="bi bi-arrow-right"></i>
 
                 <h1> Content goes here </h1>
 
-                <i class="bi bi-arrow-left"></i>
-                <i class="bi bi-dash"></i>
-                <i class="bi bi-dash"></i>
+                <i className="bi bi-arrow-left"></i>
+                <i className="bi bi-dash"></i>
+                <i className="bi bi-dash"></i>
             </div>
             <div>
                 <ul>
