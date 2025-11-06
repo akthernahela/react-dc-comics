@@ -56,20 +56,18 @@ h3 {
     color: white;
 }
 
-.col-8 {
-    font-size: small;
-    padding-top: 10px;
+.col-7 {
+    padding-top: 20px;
     padding-left: 15%;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
 
     a {
         color: gray;
     }
 }
 
-.col-4 {
+.col-5 {
     position: absolute;
     right: 50px;
     top: 0;
@@ -77,7 +75,7 @@ h3 {
 }
 
 .BigLogo {
-    right: 0;
+    right: 20;
     top: -100px;
     position: absolute;
 }

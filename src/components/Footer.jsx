@@ -12,8 +12,8 @@ export default function Footer() {
     return (
         <footer>
             <div className="upFooter">
-                <div className="row w-50">
-                    <div className="col-8">
+                <div className="row">
+                    <div className="col-7">
                         <nav>
                             <h3>DC COMICS</h3>
                             <a href="">Characters</a>
@@ -53,7 +53,7 @@ export default function Footer() {
                         </nav>
 
                     </div>
-                    <div className="col-4">
+                    <div className="col-5">
                         <BigLogo />
                     </div>
                 </div>
