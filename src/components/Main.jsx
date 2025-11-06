@@ -3,7 +3,7 @@ import Merchandise from './Merchandise';
 import Subscriptions from './Subscriptions';
 import Locator from './Locator';
 import Power from './Power';
-
+import ComicCard from './ComicCard';
 export default function Main() {
 
     const comics = [
@@ -173,14 +173,7 @@ export default function Main() {
                     <div className="row row-cols-6 g-3">
                         {
                             comics.map(comic => (
-                                <div className="col" key={comic.id}>
-                                    <div className="card h-100">
-                                        <img className="card-img-top" src={comic.thumb} alt='' />
-                                        <div className="card-body">
-                                            <div>{comic.series}</div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             ))
                         }
                     </div>
