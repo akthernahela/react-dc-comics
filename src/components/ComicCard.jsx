@@ -3,9 +3,9 @@ export default function ComicCard(props) {
     return (
         <div className="col">
             <div className="card h-100">
-                <img className="card-img-top" src={thumb} alt='' />
+                <img className="card-img-top" src={comic.thumb} alt='' />
                 <div className="card-body">
-                    <div>{series}</div>
+                    <div>{comic.series}</div>
                 </div>
             </div>
         </div>
