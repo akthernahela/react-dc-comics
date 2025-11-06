@@ -1,4 +1,12 @@
 import BigLogo from './BigLogo';
+import footerFacebook from '../assets/img/footer-facebook.png';
+import footerTwitter from '../assets/img/footer-twitter.png';
+import footerYoutube from '../assets/img/footer-youtube.png';
+import footerPinterest from '../assets/img/footer-pinterest.png';
+import footerPeriscope from '../assets/img/footer-periscope.png';
+
+
+
 export default function Footer() {
 
     return (
@@ -55,11 +63,11 @@ export default function Footer() {
                 <div className="followUs">
                     <span>FOLLOW US</span>
                     <div className="socialIcons">
-                        <div><i class="bi bi-facebook"></i></div>
-                        <div><i class="bi bi-twitter"></i></div>
-                        <div><i class="bi bi-youtube"></i></div>
-                        <div><i class="bi bi-pinterest"></i></div>
-                        <div><i class="bi bi-instagram"></i></div>
+                        <div><img src={footerFacebook} alt="" /></div>
+                        <div><img src={footerTwitter} alt="" /></div>
+                        <div><img src={footerYoutube} alt="" /></div>
+                        <div><img src={footerPinterest} alt="" /></div>
+                        <div><img src={footerPeriscope} alt="" /></div>
                     </div>
                 </div>
             </div>
