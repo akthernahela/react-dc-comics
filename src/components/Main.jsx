@@ -173,7 +173,7 @@ export default function Main() {
                     <div className="row row-cols-6 g-3">
                         {
                             comics.map(comic => (
-                                
+                                <ComicCard key={comic.id} comic={comic} />
                             ))
                         }
                     </div>
