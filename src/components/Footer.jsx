@@ -15,6 +15,11 @@ export default function Footer() {
                             <a href="">Games</a>
                             <a href="">Videos</a>
                             <a href="">News</a>
+                            <br />
+                            <br />
+                            <h3>SHOP</h3>
+                            <a href="">Shop DC</a>
+                            <a href="">Shop DC Collectibles</a>
                         </nav>
                         <nav>
                             <h3>DC</h3>
@@ -38,11 +43,7 @@ export default function Footer() {
                             <a href="">DC Universe</a>
                             <a href="">DC Power Visa</a>
                         </nav>
-                        <nav>
-                            <h3>SHOP</h3>
-                            <a href="">Shop DC</a>
-                            <a href="">Shop DC Collectibles</a>
-                        </nav>
+
                     </div>
                     <div className="col-4">
                         <BigLogo />
